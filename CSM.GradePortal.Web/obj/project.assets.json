@@ -11506,11 +11506,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ALLAN_Novalta\\source\\repos\\CSM.GradePortal\\CSM.GradePortal.Web\\CSM.GradePortal.Web.csproj",
+      "projectUniqueName": "C:\\Users\\ALLAN_Novalta\\Documents\\Projects\\CSM.GradePortal\\CSM.GradePortal.Web\\CSM.GradePortal.Web.csproj",
       "projectName": "CSM.GradePortal.Web",
-      "projectPath": "C:\\Users\\ALLAN_Novalta\\source\\repos\\CSM.GradePortal\\CSM.GradePortal.Web\\CSM.GradePortal.Web.csproj",
+      "projectPath": "C:\\Users\\ALLAN_Novalta\\Documents\\Projects\\CSM.GradePortal\\CSM.GradePortal.Web\\CSM.GradePortal.Web.csproj",
       "packagesPath": "C:\\Users\\ALLAN_Novalta\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ALLAN_Novalta\\source\\repos\\CSM.GradePortal\\CSM.GradePortal.Web\\obj\\",
+      "outputPath": "C:\\Users\\ALLAN_Novalta\\Documents\\Projects\\CSM.GradePortal\\CSM.GradePortal.Web\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
