@@ -4,8 +4,10 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using CSM.GradePortal.Web.Models;
+//using CSM.GradePortal.Web.Models;
 using CSM.GradePortal.Web.Infrastructure.Data.Helpers;
+using CSM.GradePortal.Web.ViewModels.Users;
+using CSM.GradePortal.Web.Models;
 
 namespace CSM.GradePortal.Web.Controllers
 {
@@ -20,8 +22,13 @@ namespace CSM.GradePortal.Web.Controllers
 
         public IActionResult Index()
         {
-            var users = this._context.Users.ToList();
-            return View();
+            //var users = this._context.Users.ToList();
+            //return View();
+
+            return View(new IndexViewModel()
+            {
+                Users = this._context.Users.ToList()
+            });
         }
 
         public IActionResult About()
